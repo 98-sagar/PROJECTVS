@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+/* Privacy Policy Section */
+.privacy-policy {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+}
+
+.privacy-policy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.privacy-policy p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.policy-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.policy-content h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+.policy-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.policy-content ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-left: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.policy-content ul li::before {
+    content: "\2022";
+    color: #ffdd57;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    top: 0;
+}
+
+.policy-content a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.policy-content a:hover {
+    color: #fff;
+}

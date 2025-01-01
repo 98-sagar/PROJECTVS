@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+}
+
+.header p { 
+    font-size: 1.2rem;
+    color: #eef;
+    margin-top: 10px;
+}
+
+.content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.overview,
+.resources,
+.diploma {
+    margin-bottom: 30px;
+}
+
+.overview h2,
+.resources h2,
+.diploma h2 {
+    font-size: 1.8rem;
+    color: #4facfe;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4facfe;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button-group a {
+    text-decoration: none;
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgba(67, 233, 123, 0.4);
+}
+
+.button-group a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(67, 233, 123, 0.6);
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+.footer p {
+    color: #ddd;
+}
